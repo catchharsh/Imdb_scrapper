@@ -1,10 +1,9 @@
 # Imdb_scrapper
-> Web scrapper for IMDB  
+> Web scrapper for IMDB    
 
-I have used web scrapping to get the data of various top rated movies of different genre from Imdb.  
+_**This script will receive a genre from user, then will tabularize top 50 movies as per US votes sorted in decreasing order of their Imdb ratings in a final_output.xlsx **_    
 
-_**This program will receive a genre from user, then will tabularize top 50 movies as per US votes sorted in decreasing order of their Imdb ratings.**_      
-
+I have used web scrapping to get the data of various top rated movies of different genre from Imdb.    
 I have implemented a **JSON file** to store the data from scraping and used **Pandas** to tabularize it.  
 
 Use of the following genres are allowed (it makes up mostly all):  
@@ -30,4 +29,21 @@ Use of the following genres are allowed (it makes up mostly all):
   - Thriller
   - War
   - Western
+  
+  **Requirements**
+    - Platform: Linux  
+    
+  **Python Version >=3.7 **
+  
+  **Installation**
+  Build form source:
+  > $ git clone https://github.com/catchharsh/Imdb_scrapper
+  > cd Imdb_scrapper
+  > $ pip install beautifulsoup4
+  > $ pip install requests
+  > $ pip install openpyxl
 
+**TO RUN**
+  > $ python3 scraper.py
+  > ('Enter your genre')
+  > $ python3 parse.py
