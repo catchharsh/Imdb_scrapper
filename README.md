@@ -38,7 +38,7 @@ Use of the following genres are allowed (it makes up mostly all):
   **Installation**  
   Build form source:
   > $ git clone https://github.com/catchharsh/Imdb_scrapper  
-  > cd Imdb_scrapper  
+  > $ cd Imdb_scrapper  
   > $ pip install beautifulsoup4  
   > $ pip install requests  
   > $ pip install openpyxl  
@@ -47,3 +47,5 @@ Use of the following genres are allowed (it makes up mostly all):
   > $ python3 scraper.py  
   > ('Enter your genre')  
   > $ python3 parse.py  
+ 
+**NOTE**: It will create **final_output.xlsx** where the data is stored.
